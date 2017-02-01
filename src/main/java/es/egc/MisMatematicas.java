@@ -5,9 +5,9 @@ import org.apache.log4j.*;
  * DIVISION
  *
  */
-public class App1 
+public class Logger 
 {
-	static Logger log=Logger.getLogger(App1.class); 
+	static Logger log=Logger.getLogger(Logger.class); 
 	
 	public static int divide(int a, int c){
 		int result= a/c;
