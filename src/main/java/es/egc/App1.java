@@ -15,3 +15,13 @@ public class App1
 		return result;
 	}
 }
+public class App2 
+{
+	static Logger log=Logger.getLogger(App2.class); 
+	
+	public static int multiplica(int a, int b){
+		int result= a*b;
+		log.info("Returning "+a+"*"+b+"="+result);
+		return result;
+	}
+}
