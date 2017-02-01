@@ -9,9 +9,9 @@ public class App1
 {
 	static Logger log=Logger.getLogger(App1.class); 
 	
-	public static int divide(int a, int b){
-		int result= a/b;
-		log.info("Returning "+a+"/"+b+"="+result);
+	public static int divide(int a, int c){
+		int result= a/c;
+		log.info("Returning "+a+"/"+c+"="+result);
 		return result;
 	}
 }
